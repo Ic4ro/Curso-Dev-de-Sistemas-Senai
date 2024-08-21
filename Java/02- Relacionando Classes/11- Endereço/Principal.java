@@ -11,7 +11,7 @@ public class Principal {
         
         System.out.println("\nDados da pessoa: ");
         System.out.println("Nome: " + pessoa1.getNome());
-        System.out.println("Idade: " + pessoa1.getIdade());
+        System.out.println("Idade: " + pessoa1.getIdade() + " Anos");
         System.out.println("Sexo: " + pessoa1.getSexo().getTexto());
         System.out.println("Email: " + pessoa1.getEmail());
         System.out.println("Telefone: " + pessoa1.getTelefone());
@@ -24,6 +24,6 @@ public class Principal {
         System.out.println("Cep: " + endereco1.getCep());
         System.out.println("Cidade: " + endereco1.getCidade());
         System.out.println("Uf: " + endereco1.getUf().getNome());
-        System.out.println("Sigla: " + endereco1.getUf().getSigla());
+        
     }
 }
