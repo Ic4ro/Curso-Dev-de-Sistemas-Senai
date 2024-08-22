@@ -32,7 +32,7 @@ public class Fisica extends Pessoa{
     public String toString() {
         return "\nDados da Pessoa Fisica: " + 
                super.toString() +
-               "\nSexo: " + sexo + 
+               "\nSexo: " + sexo.getTexto() + " | " + sexo.getCaractere() +
                "\nData Nascimento: " + dataNascimento;
     }
     
