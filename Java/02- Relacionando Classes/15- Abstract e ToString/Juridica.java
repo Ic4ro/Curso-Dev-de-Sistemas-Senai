@@ -31,8 +31,8 @@ public class Juridica extends Pessoa{
 
     @Override
     public String toString() {
-        return "\nDados da Pessoa Juridica: " + 
-               super.toString() +
+        return super.toString() +
+               "\n=====Dados da Pessoa Juridica=====" + 
                "\nCNPJ: " + cnpj + 
                "\nInscricao Estadual: " + inscricaoEstadual;
     }
