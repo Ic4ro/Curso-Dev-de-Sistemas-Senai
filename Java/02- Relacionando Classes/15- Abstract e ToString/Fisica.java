@@ -30,8 +30,8 @@ public class Fisica extends Pessoa{
 
     @Override
     public String toString() {
-        return "\nDados da Pessoa Fisica: " + 
-               super.toString() +
+        return super.toString() +
+               "\n=====Dados da Pessoa Fisica: =====" + 
                "\nSexo: " + sexo.getTexto() + " | " + sexo.getCaractere() +
                "\nData Nascimento: " + dataNascimento;
     }
