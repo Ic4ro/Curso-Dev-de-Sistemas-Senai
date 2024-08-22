@@ -65,7 +65,7 @@ public abstract class Funcionario extends Fisica{
                 "\nCPF: " + cpf + 
                 "\nRG: " + rg + 
                 "\nMatricula: " + matricula + 
-                "\nSetor: " + setor + 
+                "\nSetor: " + setor.getTexto() + 
                 "\nSalário: " + salario;
     }
     

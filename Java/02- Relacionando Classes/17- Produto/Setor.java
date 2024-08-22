@@ -6,16 +6,16 @@ public enum Setor {
     SAUDE("Saúde"),
     JURIDICO("Jurídico");
     
-    private final String nome;
+   private final String texto;
 
-    private Setor(String nome) {
-        this.nome = nome;
+    private Setor(String texto) {
+        this.texto = texto;
     }
 
-
-    public String getNome() {
-        return nome;
+    public String getTexto() {
+        return texto;
     }
+   
     
     
 }
