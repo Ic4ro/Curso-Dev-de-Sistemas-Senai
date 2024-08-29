@@ -38,7 +38,8 @@ public class Diretor extends Funcionario implements Contratacao {
     @Override
     public String toString() {
         return super.toString() +
-                "\nPRÊMIO: " + PREMIO;
+                "\n===Prêmio de 20%===" +
+                "\nPrêmio: " + PREMIO;
     }
 
     
