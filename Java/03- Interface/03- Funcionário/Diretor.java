@@ -2,7 +2,7 @@
 package com.mycompany.mavenproject5;
 
 public class Diretor extends Funcionario implements Contratacao { 
-   private final double PREMIO = 0.2; // Constante.
+    private final double PREMIO = 0.2; // Constante.
 
     public Diretor(String dataNacimento, String nome, double salarioBase, Setor setor, Sexo sexo) {
         super(dataNacimento, nome, salarioBase, setor, sexo);
