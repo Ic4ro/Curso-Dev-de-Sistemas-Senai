@@ -3,7 +3,7 @@ package com.mycompany.mavenproject5;
 
 public enum Sexo {
     MASCULINO("Masculino"),
-    FEMININO("Femnino");
+    FEMININO("Feminino");
 
     private final String texto;
     
