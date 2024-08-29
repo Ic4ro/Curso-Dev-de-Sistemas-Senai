@@ -2,7 +2,6 @@
 package com.mycompany.mavenproject5;
 
 public abstract class Funcionario {
-    
     protected String nome;
     protected String dataNacimento;
     protected Setor setor;        
@@ -67,7 +66,7 @@ public abstract class Funcionario {
                 "\nNome: " + nome + 
                 "\nData de Nacimento: " + dataNacimento + 
                 "\nSetor: " + setor.getNome() + 
-                "\nSexo: " + sexo.name() + 
+                "\nSexo: " + sexo.getTexto() + 
                 "\nSalário Base: " + salarioBase +
                 "\nSaçário Final: " + getSalarioFinal();
     }
