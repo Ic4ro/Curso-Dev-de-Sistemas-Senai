@@ -1,0 +1,6 @@
+Código: 1
+Descrição: a
+Fabricante: b
+R$: 150 Reais
+
+
